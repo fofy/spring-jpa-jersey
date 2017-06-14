@@ -5,3 +5,7 @@
 /.git
 /.idea
 /.*.iml
+/.DS_Store
+/bin
+/logs
+/bin
