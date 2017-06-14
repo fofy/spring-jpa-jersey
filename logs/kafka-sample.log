@@ -793,3 +793,8 @@ java.sql.SQLException: Failed to validate a newly established connection.
 2017-06-14 04:04:30,758 [main] INFO  b.c.c.s.d.s.application.Application - The following profiles are active: default
 2017-06-14 04:04:36,083 [main] WARN  o.a.tomcat.jdbc.pool.ConnectionPool - maxIdle is larger than maxActive, setting maxIdle to: 50
 2017-06-14 04:04:38,823 [main] INFO  b.c.c.s.d.s.application.Application - Started Application in 23.693 seconds (JVM running for 33.689)
+2017-06-14 16:40:10,019 [main] INFO  b.c.c.s.d.s.application.Application - Starting Application on Mac-mini-de-Fernando.local with PID 64219 (/Users/fernando/Projects/spring-jpa-jersey-master/target/classes started by fernando in /Users/fernando/Projects/spring-jpa-jersey-master)
+2017-06-14 16:40:10,021 [main] DEBUG b.c.c.s.d.s.application.Application - Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2017-06-14 16:40:10,022 [main] INFO  b.c.c.s.d.s.application.Application - The following profiles are active: unit
+2017-06-14 16:40:15,837 [main] WARN  o.a.tomcat.jdbc.pool.ConnectionPool - maxIdle is larger than maxActive, setting maxIdle to: 50
+2017-06-14 16:40:18,569 [main] INFO  b.c.c.s.d.s.application.Application - Started Application in 24.218 seconds (JVM running for 36.48)
