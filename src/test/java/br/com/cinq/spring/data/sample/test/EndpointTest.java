@@ -1,6 +1,5 @@
 package br.com.cinq.spring.data.sample.test;
 
-import br.com.cinq.spring.data.sample.entity.City;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import br.com.cinq.spring.data.sample.application.Application;
-//import br.com.cinq.spring.data.sample.entity.City;
+import br.com.cinq.spring.data.sample.entity.City;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)

@@ -38,7 +38,8 @@ public class CityRepositoryTest {
         Assert.assertTrue(dao.count()>0);
 
         City city = new City();
-        city.setId(3); // Should be Manaus
+        city.setId(3);
+        city.setName("Manaus");
 
         City cityTest = dao.findByName(city.getName());
 
